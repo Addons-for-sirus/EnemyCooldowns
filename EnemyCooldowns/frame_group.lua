@@ -1,10 +1,10 @@
 local engine = select(2,...)
 
-local ICONS_SIZE = 24
-local ICONS_AT_COLUMN = 4
-local ICONS_MAX = 20
-local OFFSET_Y = 2
-local OFFSET_X = 22
+local ICONS_SIZE = 21     -- Размер иконок
+local ICONS_AT_COLUMN = 3 -- Сколько иконок в стобце
+local ICONS_MAX = 12      -- Сколько максимум иконок
+local OFFSET_Y = 1        -- Отступ внутри группы по Y
+local OFFSET_X = 25       -- Отступ внутри группы по X
 local SPELLS = engine.SPELLS
 local math = math
 local table = engine.table
@@ -101,7 +101,7 @@ function engine:CreateGroup()
 	frame:SetHeight(1)
 
 	local name = frame:CreateFontString(nil,"BORDER","NumberFontNormal")
-	name:SetPoint("BOTTOM",frame,"TOP",0,2)
+	name:SetPoint("BOTTOM",frame,"TOP",2,2)                                -- Отступ имени от иконок X и Y
 
 
 	frame.name = name

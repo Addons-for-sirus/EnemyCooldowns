@@ -2,18 +2,31 @@ local namespace = select(2,...)
 
 
 namespace.SPELLS = {
+    --SIRUS Races
+	[316465] = 60,  --Дважение хаоса
+	[316161] = 90,  -- Молот глубин
+	[316455] = 90,  -- Забучие пески 
+	[316289] = 90,  -- Легкость тьмы
+	[316393] = 90,  -- Реактивный прыжок
+	[316443] = 60,  -- Дрожащая ладонь
+	[316413] = 120, -- Боевой транс
+	[316294] = 90,  -- Эгида магии
+	[316431] = 60,  -- Темпоральное искажение
+	[316367] = 90,  -- Область Бездны
+	[310810] = 120, -- Сторожевая змея
+	[319322] = 90,  -- Неизбежная кара
 	-- racial and items
-	[20594] = 120, -- Stoneform
-	[42292] = 120, -- PvP Trinket
-	[7744] = 120, -- Will of the Forsaken
-	[59752] = 120, -- Every Man for Himself
-	[50613] = 120, -- Arcane Torrent
-	[20589] = 105, -- Escape Artist
-	[58984] = 120, -- Shadowmeld
-	[25046] = 120, -- Arcane Torrent
-	[28730] = 120, -- Arcane Torrent
-	[20549] = 120, -- War Stomp
-	[71607] = 120, -- Bauble of True Blood
+	[20594] = 120,  -- Stoneform
+	[42292] = 120,  -- PvP Trinket
+	[7744] = 120,   -- Will of the Forsaken
+	[59752] = 120,  -- Every Man for Himself
+	[50613] = 120,  -- Arcane Torrent
+	[20589] = 105,  -- Escape Artist
+	[58984] = 120,  -- Shadowmeld
+	[25046] = 120,  -- Arcane Torrent
+	[28730] = 120,  -- Arcane Torrent
+	[20549] = 120,  -- War Stomp
+	[71607] = 120,  -- Bauble of True Blood
 	-- warrior
 	[20616] = 15, -- Intercept
 	[20617] = 15, -- Intercept
@@ -130,7 +143,7 @@ namespace.SPELLS = {
 	[33933] = 30, -- Blast Wave
 	[42944] = 30, -- Blast Wave
 	[42950] = 20, -- Dragon's Breath
-	[12051] = 240, -- Evocation
+	[12051] = 120, -- Evocation
 	[2139] = 24, -- Counterspell
 	[31661] = 20, -- Dragon's Breath
 	[11958] = 480, -- Cold Snap

@@ -1,10 +1,10 @@
 local ADDON_NAME,engine = ...
 
-local GROUPS_OFFSET = 22
-local POSITION_X,POSITION_Y = 400,-180
-local CHARS_LIMIT = 8
-local COMBATLOG_OBJECT_REACTION_NEUTRAL = COMBATLOG_OBJECT_REACTION_NEUTRAL
-local COMBATLOG_OBJECT_REACTION_HOSTILE	= COMBATLOG_OBJECT_REACTION_HOSTILE
+local GROUPS_OFFSET = 12                                                        -- Отступ между группами
+local POSITION_X,POSITION_Y = 496,-245                                          -- Позиция крипления по X и Y. Якорь - левая центральная точка экрана
+local CHARS_LIMIT = 8                                                           -- Максимальное количество символов имени
+local COMBATLOG_OBJECT_REACTION_NEUTRAL = COMBATLOG_OBJECT_REACTION_NEUTRAL     -- Для настройки меняем "...=COMBATLOG_OBJECT_REACTION_NEUTRAL" -> "...=COMBATLOG_OBJECT_REACTION_FRIENDLY" 
+local COMBATLOG_OBJECT_REACTION_HOSTILE	= COMBATLOG_OBJECT_REACTION_HOSTILE     -- После делаем /rl и вам начнут отображаться ваши спобоности и сбособности союзников. Настраиваем и возвращаем обратно
 local COMBATLOG_OBJECT_REACTION_MASK = COMBATLOG_OBJECT_REACTION_MASK
 local CLASS2HEXCOLOR = {}
 local SPELLS,RESETTERS = engine.SPELLS,engine.RESETTERS

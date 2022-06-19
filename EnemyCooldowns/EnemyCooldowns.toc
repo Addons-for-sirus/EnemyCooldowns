@@ -1,5 +1,8 @@
 ## Interface: 30300
-## Author: frostatom
+## Author: frostatom, Apolexis
+## Title: EnemyCooldowns
+## Notes: Показывает кд всех врагов. Адаптация для Sirus - https://discord.gg/5JPxXZsj
+## Version: 1.2
 
 spells.lua
 table.lua

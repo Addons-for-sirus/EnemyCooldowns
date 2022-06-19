@@ -68,9 +68,10 @@ function engine:CreateIcon(parent)
 	frame:SetFrameLevel(parent:GetFrameLevel())
 	frame:Hide()
 
-	local text = frame:CreateFontString(nil,"ARTWORK","NumberFontNormal")
+	local text = frame:CreateFontString(nil,"EXPRESSWAY","NumberFontNormal")
 	text:SetJustifyH("LEFT")
 	text:SetPoint("LEFT",frame,"RIGHT")
+	text:SetTextColor(1,0.9412,0.1137,1)                                         -- Установка цвета в % числа от числа 255 (RGBA). Минимум 0. Максимум 1. Например 240 зеленого - 94.12% от 255
 
 	local texture = frame:CreateTexture(nil,"BORDER")
 	texture:SetAllPoints()
