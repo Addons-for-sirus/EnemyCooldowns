@@ -1,7 +1,7 @@
 ## Interface: 30300
 ## Author: frostatom, Apolexis
 ## Title: EnemyCooldowns
-## Notes: Показывает кд всех врагов. Адаптация для Sirus - https://discord.gg/5JPxXZsj
+## Notes: Минималистический аддон для отслеживания кулдаунов вражеских игроков. Адаптация для Sirus - https://discord.gg/5JPxXZsj
 ## Version: 1.2
 
 spells.lua
